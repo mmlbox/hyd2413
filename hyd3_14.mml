@@ -1,4 +1,4 @@
-;[gain=2.0 name=blank duration=300s fade=5s]
+;[gain=2.0 name=hyd3_14 duration=300s fade=5s]
 #opll_mode 1
 #tempo 150
 #title { "HYDLIDE 3 - Gayzac (Last Boss)"}
@@ -47,7 +47,7 @@
 9 g4.g4f+4.
 9 e4.e4d+4.
 9 g4.g4f+4.
-9 v10c2..<b16>c16
+9 v10 c2..<b16>c16
 9 d4.g4c4d8
 9 e1
 9 <d4.e2>d16e16
