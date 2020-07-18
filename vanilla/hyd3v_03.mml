@@ -1,4 +1,4 @@
-;[gain=2.0 name=hyd3_03 duration=300s fade=5s]
+;[gain=2.0 name=hyd3v_03 duration=300s fade=5s]
 #opll_mode 1
 #tempo 150
 #title { "HYDLIDE 3 - Out of Freedom (Town)"}
