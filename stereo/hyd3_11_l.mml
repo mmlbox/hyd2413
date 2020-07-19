@@ -1,7 +1,7 @@
 ;[gain=2.0 name=hyd3_11_l duration=300s fade=5s]
 #opll_mode 1
 #tempo 150
-#title { "HYDLIDE 3 - Battle In The Splash Cave (Forbidden Caves)"}
+#title { "[Lch] HYDLIDE 3 - Battle In The Splash Cave (Forbidden Caves)"}
 ;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
 #psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
 ;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
