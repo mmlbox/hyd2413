@@ -40,152 +40,59 @@
 123 v13 ; Edit this volume to adjust PSG/FM balance.
 
 9 [
-9 @9o6v9c8<b4a1&a4
-9 c8e8a8
-9 >c8<a4f1&f4
-9 d8f8a8
-9 >d8<a4f1&f4
-9 f8a8>c8
-9 <b8a8g+8>f8e8d8c8<b8
-9 >d8c8<b8g+8e8f8g+8b8
-9 >c8<b4a1&a4
-9 c8e8a8
-9 >c8<a4f1&f4
-9 d8f8a8
-9 >d8<a4f1&f4
-9 f8a8>c8
-9 <b8a8g+8>f8e8d8c8<b8
-9 >d8c8<b8g+8e8f8g+8b8
-9 >c8<b8a8>c4<a8b8>c8
-9 d8<b4g4f4.
-9 >d8<b8g8>d4<b8>c8d8
-9 e8c4<a4b4.
-9 >c8<b8a8>c4<a8b8>c8
-9 d8<b4g4f4.
+9 @9o6v9l8
+9 [ c8<b4a1&a4 c8e8a8>c8<a4f1&f4 d8f8a8>d8< a4f1&f4 f8a8>c8<
+9   b8a8g+8>f8 e8d8c8<b8> d8c8<b8g+8 e8f8g+8b8> ]
+9 c8<b8a8>c4<a8b8> c8d8<b4g4f4.>
+9 d8<b8g8>d4<b8>c8d8 e8c4<a4b4.>
+9 c8<b8a8>c4<a8b8>c8 d8<b4g4f4.
 9 a8g+8>c8<b8>d8<b8>g8f8
-9 e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16f16
+9 l16 e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16f16
 9 ]0
 
 A \1
-A [r12@9o6v7c8<b4a1&a4
-A c8e8a8
-A >c8<a4f1&f4
-A d8f8a8
-A >d8<a4f1&f4
-A f8a8>c8
-A <b8a8g+8>f8e8d8c8<b8
-A >d8c8<b8g+8e8f8g+8b32
-A r16.>c8<b4a1&a4
-A c8e8a8
-A >c8<a4f1&f4
-A d8f8a8
-A >d8<a4f1&f4
-A f8a8>c8
-A <b8a8g+8>f8e8d8c8<b8
-A >d8c8<b8g+8e8f8g+8b24
-A r16>c8<b8a8>c4<a8b8>c8
-A d8<b4g4f4.
-A >d8<b8g8>d4<b8>c8d8
-A e8c4<a4b4.
-A >c8<b8a8>c4<a8b8>c8
-A d8<b4g4f4.
+A [@9o6v7l8 r12
+A [ c8<b4a1&a4 c8e8a8>c8<a4f1&f4 d8f8a8>d8< a4f1&f4 f8a8>c8<
+A   b8a8g+8>f8 e8d8c8<b8> d8c8<b8g+8 e8f8g+8|b32r16.> ] b24r16
+A c8<b8a8>c4<a8b8>c8 d8<b4g4f4.>
+A d8<b8g8>d4<b8>c8d8 e8c4<a4b4.>
+A c8<b8a8>c4<a8b8>c8 d8<b4g4f4.
 A a8g+8>c8<b8>d8<b8>g8f8
-A e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16
+A l16 e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16
 A ]0
 
 B l16
-B [ o3
-B [
+B [ o3 [
 B @23v11c16@21v12c16c16c16@22v14c16@21v12c16c16c16
 B @23v11c16@21v12c16@23v11c16@21v12c16@22v14c16@21v12c16c16c16
 B @23v11c16@21v12c16c16c16@22v14c16@21v12c16@23v11c16@21v12c16
 B c16c16@23v11c16@21v12c16@22v14c16@21v12c16c16c16
-B ]12
-B ]0
+B ]12 ]0
 
-1 [
-1 r8o5@0
-1 a8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 r8<hfa8b8>h20,2,0,4c2hfa8
-1 g8f+8d8h20,2,0,3e2^8
-1 <<hfa8a8a8a8a8a8a8a8
-1 b8b8b8b8b8b8b8b8
-1 b8b8b8b8b8b8b8b8
-1 >c8c8c8c8<b8b8b8b8
-1 a8a8a8a8a8a8a8a8
-1 b8b8b8b8b8b8b8b8
-1 g+8e8g+8b8g+8g+8g+8>d8
-1 <g+8g+8g+8g+8g+8g+8g+8g+8
+1 [ o5@0 l8
+1 [ r8a8b8>h20,2,0,4c2hfa8g8f+8d8h20,2,0,3e2^8<hf ]8 <
+1 [ [a8]8 [b8]8 | [b8]8 >c8c8c8c8<b8b8b8b8 ]
+1 g+8e8g+8b8g+8g+8g+8>d8 <[g+8]8
 1 ]0
 
-2 [
-2 r4o3@1
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r16>g32g32g_e16g_e16g_e16e_c+16e_c+16c_<a16>c_<a16>
-2 r4
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r4^16>c_<e8.r4^16>
-2 c_<e8.r16>g32g32g_e16g_e16g_e16e_c+16e_c+16c_<a16>@2c8.
-2 >>@0c8<<@1c_<f+8>>>@0c8c8c8<<@1c_<f+8>>>@0c8
-2 d8d8<<@1c_<f+8>>>@0d8d8<<@1c_<a16>c_<a16>g_c+8>>@0d8
-2 <g8g8<@1c_<f+8>>@0g8g8g8<@1c_<f+8>>@0g8
-2 >e8e8<<@1c_<f+8>>>@0e8<<@1c_<a16>c_<a16>c_<a16>c_<a16>g_c+8>>@0e8
+2 [o3@1 l8
+2 [ r4 [c_<e8.|r4^16>c_<e8.r4^16>]8 r16>g32g32g_e16g_e16g_e16e_c+16e_c+16c_<a16>|c_<a16> ] 
+2 @2c8.>>@0 
+2 c8<<@1c_<f+8>>>@0c8c8c8<<@1c_<f+8>>>@0c8
+2 d8d8<<@1c_<f+8>>>@0d8d8<<@1c_<a16>c_<a16>g_c+8>>@0d8<
+2 g8g8<@1c_<f+8>>@0g8g8g8<@1c_<f+8>>@0g8>
+2 e8e8<<@1c_<f+8>>>@0e8<<@1c_<a16>c_<a16>c_<a16>c_<a16>g_c+8>>@0e8
 2 c8c8<<@1c_<f+8>>>@0c8c8c8<<@1c_<f+8>>>@0c8
-2 d8d8<<@1c_<f+8>>>@0d8d8<<@1c_<a16>c_<a16>g_c+8>>@0d8
-2 <b8b8<@1c_<f+8>>@0b8b8b8<@1c_<f+8>>@0b8
-2 <@1b32b32b_g+16b_g+16b_g+16 g_e16g_e16g_e16g_e16 
+2 d8d8<<@1c_<f+8>>>@0d8d8<<@1c_<a16>c_<a16>g_c+8>>@0d8<
+2 b8b8<@1c_<f+8>>@0b8b8b8<@1c_<f+8>>@0b8<
+2 @1l16 b32b32b_g+16b_g+16b_g+16 g_e16g_e16g_e16g_e16 
 2 e32e32e_c+16e_c+16e_c+16 c_<a16>c_<a16>c_<a16>c_<a16
 2 ]0
 
-3 [
+3 [ l16
 3 o2@3
-3 a8a16a16a8a16a16a8a16a16a8a16a16
-3 a8a16a16a8a16a16a8a16a16a8a16a16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 d8d16d16d8d16d16d8d16d16d8d16d16
-3 d8d16d16d8d16d16d8d16d16d8d16d16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
-3 a8a16a16a8a16a16a8a16a16a8a16a16
-3 a8a16a16a8a16a16a8a16a16a8a16a16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 d8d16d16d8d16d16d8d16d16d8d16d16
-3 d8d16d16d8d16d16d8d16d16d8d16d16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 g8g16g16g8g16g16g8g16g16g8g16g16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
-3 a8a16a16a8a16a16a8a16a16a8a16a16
-3 f8f16f16f8f16f16f8f16f16f8f16f16
-3 g8g16g16g8g16g16g8g16g16g8g16g16
-3 e8e16e16e8e16e16e8e16e16e8e16e16
+3 [ [a8a16a16]8 [f8f16f16]8 [d8d16d16]8 [e8e16e16]8 ]
+3 [ [f8f16f16]4 [g8g16g16]4 [e8e16e16]4 | [a8a16a16]4 ]
 3 e8e16e16<e8e16e16g+8g+16g+16b8b16b16
 3 ]0
 
