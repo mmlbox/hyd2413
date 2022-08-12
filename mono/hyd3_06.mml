@@ -19,35 +19,35 @@
          0, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
-  15,13, 5, 7, 0, 2, 0, 0, 0, 0, 0 }
+  15,13, 5, 7, 0, 2, 0, 0, 0, 1, 0 }
   
 @v23 = { ; BD
 ;       TL FB
          0, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15,12, 8, 0, 0, 2, 0, 0, 0, 0, 0,
-  12, 7, 2, 5, 0, 0, 0, 0, 0, 1, 0 }
+  12, 7, 4, 5, 0, 0, 0, 0, 0, 1, 0 }
   
 123 v13 ; Edit this volume to adjust PSG/FM balance.
 
-9 [ r2@9o5v8
-9 f4.f8f2
-9 d+4.d+8d+2
-9 f4.f8f2
-9 f4.f8f2
-9 c+4.c+8c+2
-9 c+4.c+8c+2
-9 c4.c8c2
-9 f+4.f+8d+4.d+8
-9 f4.f8f2
-9 d+4.d+8d+2
-9 f4.f8f2
-9 f4.f8f2
-9 c+4.c+8c+2
-9 d+4.d+8d+2
-9 f4.f8f2
-9 f4.f8f2
-9 @0<v10
+9 [ r2@9o5v8q5so
+9 f8r4f8f8r4.
+9 d+8r4d+8d+8r4.
+9 f8r4f8f8r4.
+9 f8r4f8f8r4.
+9 c+8r4c+8c+8r4.
+9 c+8r4c+8c+8r4.
+9 c8r4c8c8r4.
+9 f+8r4f+8d+8r4d+8
+9 f8r4f8f8r4.
+9 d+8r4d+8d+8r4.
+9 f8r4f8f8r4.
+9 f8r4f8f8r4.
+9 c+8r4c+8c+8r4.
+9 d+8r4d+8d+8r4.
+9 f8r4f8f8r4.
+9 f8r4f8f8r4.
+9 @0<v10q8sf
 9 a+1>c2c2c+1&c+1
 9 <a+1>c2c2d1&d1
 9 <a+1>c1c+1
@@ -55,24 +55,24 @@
 9 c+2^8d+4.c+4.r8
 9 ]0
 
-A [ r2@9o5v8
-A c+4.c+8c+2
-A c4.c8c2
-A c+4.c+8c+2
-A c+4.c+8c+2<
-A a+4.a+8a+2
-A a+4.a+8a+2
-A a4.a8a2
-A a4.a8a4.a8>
-A c+4.c+8c+2
-A c4.c8c2
-A c+4.c+8c+2
-A c+4.c+8c+2<
-A a+4.a+8a+2
-A >c4.c8c2
-A c+4.c+8c+2
-A c+4.c+8c+2
-A @0v10
+A [ r2@9o5v8q5so
+A c+8r4c+8c+8r4.
+A c8r4c8c8r4.
+A c+8r4c+8c+8r4.
+A c+8r4c+8c+8r4.<
+A a+8r4a+8a+8r4.
+A a+8r4a+8a+8r4.
+A a8r4a8a8r4.
+A a8r4a8a8r4a8>
+A c+8r4c+8c+8r4.
+A c8r4c8c8r4.
+A c+8r4c+8c+8r4.
+A c+8r4c+8c+8r4.<
+A a+8r4a+8a+8r4.>
+A c8r4c8c8r4.
+A c+8r4c+8c+8r4.
+A c+8r4c+8c+8r4.
+A @0v10q8sf
 A f+1d+2d+2
 A f1&f1
 A f+1d+2d+2
@@ -83,10 +83,15 @@ A g1 a1
 A f2^8f+4.f4.r8
 A ]0
 
-B [ @21o3v12c4c4
-B [@23v12c4@22v14c8@23v12c8|c4@22v14c4]16 @22v14c8c8@23v12c4
-B [@23v12c4@22v14c8@23v12c8c4@22v14c4]15
-B c4@21v12c4 
+#macro_offset { b=0, s=1, h=2 }
+
+*b={@23v12}
+*s={@22v14}
+*h={@21v14}
+
+B o3 [ *hc4c4
+B [*bc4*sc8*bc8|c4*sc4]16 *sc8c8*bc4
+B [*bc4*sc8*bc8c4*sc4]15 c4*hc4
 B ]0
 
 1 [ o4@0\0
@@ -102,12 +107,12 @@ B ]0
 1 h18,2,0,2 d+4c+4c2<h18,2,0,1a+4a4 h18,2,0,2 f4f+4 h18,2,0,1a4>h18,2,0,2c4hfc+16c16<a+4.&a+1
 1 ]0
 
-2 [ r16o4@4\0
+2 [ r16o4@4\-1
 2 f4g+4a+2 a+4>c+4d+2 c4<g+4>c4.c+16c16 <a+1
 2 g+4f4f+2 f+4g+4a+2 >c4<a+4a4. g+16f+16 f1
 2 f4g+4a+2 a+4>c+4d+2 c4<g+4>c4.c+16c16 <a+1
 2 g+4f4d+2 f4f+4a2 a+4>c4 c+16c16<h125,2,6,1a+1&a+2..hf
-2 >@5h48,5,0,2
+2 >@5h48,5,0,2\0
 2 f1d+2hfc2<a+1&a+2
 2 >c+4d+4hof2.hff4
 2 g+2g+4.g16f+16h48,5,0,2f2&f1hf

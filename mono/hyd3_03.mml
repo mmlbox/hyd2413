@@ -19,15 +19,15 @@
          0, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
-  15,13, 5, 7, 0, 2, 0, 0, 0, 0, 0 }
+  15,13, 5, 7, 0, 2, 0, 0, 0, 1, 0 }
   
 @v23 = { ; BD
 ;       TL FB
          0, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15,12, 8, 0, 0, 2, 0, 0, 0, 0, 0,
-  12, 7, 2, 5, 0, 0, 0, 0, 0, 1, 0 }
-  
+  12, 7, 4, 5, 0, 0, 0, 0, 0, 1, 0 }
+    
 #alloc { 1=1500,2=1500 }
 
 123 v13 ; Edit this volume to adjust PSG/FM balance.
