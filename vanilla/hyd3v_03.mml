@@ -107,16 +107,16 @@ A <b8r16b8r16b8r8>d8r4
 A ]0
 
 F [ kf
-F [ l8 vh9vs13vb15vm15vc10
+F [ l8 vh8vs10vb12vm12vc7
 F h24h24h24c8s4 h8s8c8s8
 F h8c8s8c8 h16h16h16h16s8b8
 F h8h24h24h24s4 h8s8c8s8
 F h8c8s8r8 h16h16h16h16s8b8
 F h8c8s8h8 h8h8s8h8
 F h8c8s8h8 h8h8s8c8 |
-F h8c8s8r8 h16h16h16h16s8vs15s8 r8s8s8s8 vs14s8s8m16m16s8
+F h8c8s8r8 h16h16h16h16s8vs11s8 r8s8s8s8 vs10s8s8m16m16s8
 F ]2
-F c4s8c4s8h16h16c8 s8.s8.s8r8vs14s8s16s16s8
+F c4s8c4s8h16h16c8 s8.s8.s8r8vs11s8s16s16s8vs10
 F [h8h8s8c8h8c8s8s8 | h8h8s8c8h8c8s16s16s8]3 h8h8s8c8c8s8c8c8
 F h16h16c16h16s16s16h16c16h16h16c16h16s16s16c16h16
 F s8.s8.s8r2

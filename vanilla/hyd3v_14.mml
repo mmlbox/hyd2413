@@ -84,16 +84,19 @@ A b2..>a16a+16
 A b1
 A ]0
 
-F [ vh9vs13vb14vc10kf
+F [ vh8vs10vb12vc8kf
 F [
 F hb16h16c16h16hs16h16c16h16
 F hb16h16cb16h16hs16h16c16h16
-F ]16 ko
+F ]16
 F [hb16h16h16h16hs16h16hb16h16h16h16hb16h16hs16h16hb16h16]6
 F hb16h16h16h16hs16h16h16h16
 F hb16h16b16h16hs16h16h16h16
-F vc12kocs16s16s16s16cs16s16s16s16
-F vs14vc13kfcs16s16hs16hs16cs16s16hs16hs16
+F vc+3
+F cs16s16s16s16cs16s16s16s16
+F vs+1
+F cs16s16hs16hs16cs16s16hs16hs16
+F vs-1vc-3
 F ]0
 
 1 [ o4@0

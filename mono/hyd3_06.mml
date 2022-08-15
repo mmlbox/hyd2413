@@ -30,7 +30,7 @@
   
 123 v13 ; Edit this volume to adjust PSG/FM balance.
 
-9 [ r2@9o5v8q5so
+9 [ r2@9o5v9q5so
 9 f8r4f8f8r4.
 9 d+8r4d+8d+8r4.
 9 f8r4f8f8r4.
@@ -55,7 +55,7 @@
 9 c+2^8d+4.c+4.r8
 9 ]0
 
-A [ r2@9o5v8q5so
+A [ r2@9o5v9q5so
 A c+8r4c+8c+8r4.
 A c8r4c8c8r4.
 A c+8r4c+8c+8r4.
