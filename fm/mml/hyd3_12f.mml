@@ -1,0 +1,225 @@
+;[gain=2.0 name=hyd3_12f duration=300s fade=5s]
+#opll_mode 1
+#tempo 150
+#title { "HYDLIDE 3 - Undersea City (Ocean Floor)" }
+;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
+;#psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
+;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
+#opll_tune { 176, 186, 197, 210, 222, 235, 249, 264, 280, 297, 314, 332 }
+
+#alloc { C=3100,D=3100,E=3000,9=1000,a=1000,b=3000 }
+
+@v15 = { ; PSG
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0,15, 0, 4, 0, 0, 1, 0, 0,
+  12, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+
+CDE @15v15
+
+9 [
+9 @11o3v9\3 l12
+9 [
+9 g2g12g12g12g6b3^6.
+9 b12b12b12b6>c3^6.
+9 c12c12c12c6c+2
+9 c+12c+12c+12c+12c+4
+9 c2c12c12c12c6<b3^6.
+9 b12b12b12b6a3^6.
+9 a12a12a12a6a3^6.
+9 b12b12b12b4
+9 ]
+
+9 @0>>v10g+%176a1 a1 a2 b3^6.
+9 g+%176b1 g1&g12
+9 @11<<v9
+9 g12g12g12g4
+9 b12b12b12b4
+9 [
+9 g2g12g12g12g4
+9 b2b12b12b12b4
+9 >c2c12c12c12c4
+9 c2c12c12c12c4
+9 c2c12c12c12c4
+9 |
+9 <b2b12b12b12b4
+9 a2a12a12a12a4
+9 a12a12a12a4
+9 b12b12b12b4
+9 ]
+9 c2c12c12c12c4
+9 c12c12c12c4<b12b12b12b6>c3^6.
+9 c12c12c12c4
+9 ]0
+
+A [ @11o3v9 l12
+A [
+A e2e12e12e12e6g3^6.
+A g12g12g12g6a3^6.
+A a12a12a12a6a+2
+A a+12a+12a+12a+12a+4
+A a2a12a12a12a6g3^6.
+A g12g12g12g6f3^6.
+A f12f12f12f6f3^6.
+A g12g12g12g4
+A ]
+
+A @0>>v10f%176g1
+A f1
+A f2
+A f3^6.
+A f%176f1
+A e1&e12
+A @11<<v9
+A e12e12e12e4
+A g12g12g12g4
+A [
+A e2e12e12e12e4
+A g2g12g12g12g4
+A a2a12a12a12a4
+A g+2g+12g+12g+12g+4
+A a2a12a12a12a4
+A |
+A g2g12g12g12g4
+A g2g12g12g12g4
+A f12f12f12f4g12g12g12g4
+A ]
+A a2a12a12a12a4
+A a12a12a12a4f12f12f12f6g3^6.
+A g12g12g12g4
+A ]0
+
+F y22,181y38,4y23,0y39,0y24,0y40,0
+F vb13vc10vh8vs10 
+F [ l12
+F [ [h12h12h12s12h12h12h12s12h12|s12h12h12]4 vs+1s12vs-1h12h12 ]4
+F [
+F [h12h12h12s12h12h12h12s12h12|s12h12h12]4 vs+1s12vs-1h12h12
+F [h12h12h12s12h12h12h12s12h12s12h12h12]3 
+F h12h12h12s4h12h12h12s4 
+F ]3
+F ]0
+
+C [ l4
+C r4o4@e0
+C [
+C h20,2,0,3g4b6>h20,2,0,4c4h20,2,0,3d3
+C d4e6f4e1 e2f3^6.
+C h20,2,0,4c4c4d6h20,2,0,3e4d2
+C <h20,2,0,2b2>h20,2,0,3f1
+C g3^6.g12f12e12d8.r16|r4<
+C ]
+
+C f3^3<a+12>d6f12
+C f3^12g2h20,2,0,2a2.
+C f12g6a2
+C h20,2,0,3g3^6.
+C f3^3<a+12>d6f12
+C g3^12h20,2,0,2a4h20,2,0,3g4f2.e3
+C <@e2e12e12e12e4g12g12g12g4
+C r4>@e1g4e6g3
+C >d4d4e6d3
+C d1
+C f4e4d6e4h20,2,0,4c1&c12
+C <h20,2,0,2b4
+C b4>e6h20,2,0,3d4h20,2,0,4c1&c12
+C <@e2c12
+C c12c12c4e12e12e12h20,2,0,3e4
+C r4@e1g4e6g3
+C >d4d4e6f3
+C e1
+C g4h20,2,0,2g+4a+6g+4h20,2,0,3g3^6.
+C e4g4
+C f2e2 
+C <h20,2,0,2b4>h20,2,0,4c4e6h20,2,0,3d4h20,2,0,4c1&c48r16
+C ]0
+
+D [ l8
+D r4^16o4@e3g4@e2b6>c4d3
+D d4e6f4e1
+D e2
+D f3^6.
+D c4c4d6e4d2
+D <b2>f1
+D g3^6.
+D g12f12e12d8.
+D r4^16<g4b6>c4d3
+D d4e6f4e1
+D e2
+D f3^6.
+D c4c4d6e4d2
+D <b2>f1
+D g3^6.
+D g12f12e12d8.
+D r16f3^3<a+12>d6f12
+D f3^12g2a2.
+D f12g6a2
+D g3^6.
+D f3^3<a+12>d6f12
+D g3^12a4g4f2.
+D e3
+D <e12e12e12e4g12g12g12g8.
+D r4^16>@e1g4e6g3
+D >d4d4e6d3
+D d1
+D f4e4d6e4c1&c12
+D <b4
+D b4>e6d4c1&c12
+D <@e4c12
+D c12c12c4e12e12e12e4
+D r4@e2g4e6g3
+D >d4d4e6f3
+D e1
+D g4g+4a+6g+4g3^6.
+D e4g4
+D f2e2
+D <b4>c4e6d4c1&c48r16
+D ]0
+
+E [ l12
+E o2
+E [
+E @e2c4>@e5g_<b6@e2c12r12c12r12>@e6e_<g+6
+E @e2e3>@e6g_<b6@e2e12r12e12r12>@e6e_<g+6
+E @e2a3>@e6g_<b6@e2a12r12a12r12>@e6e_<g+6
+E @e2a+3>@e6g_<b6@e2a+12r12a+12r12>@e6e_<g+6
+E @e2a+12f4>@e6g_<b6@e2f12r12f12r12>@e6e_<g+6
+E @e2e3>@e6g_<b6@e2e12r12e12r12>@e6e_<g+6
+E @e2d3>@e6g_<b6@e2d12r12d12r12>@e6e_<g+6
+E @e2g3>@e6g_<b6@e2g12r12g12r12>@e5g_d+12g_d+12c_<g+12
+E ]
+
+E @e2a+4>@e6g_<b6@e2a+12r12a+12r12>@e6e_<g+6
+E @e2a3>@e6g_<b6@e2a12r12a12r12>@e6e_<g+6
+E @e2d3>@e6g_<b6@e2d12r12d12r12>@e6e_<g+6
+E @e2g3>@e6g_<b6@e2g12r12g12r12>@e6e_<g+8.r16
+E @e2a+4>@e6g_<b6@e2a+12r12a+12r12>@e6e_<g+6
+E @e2g3>@e6g_<b6@e2g12r12g12r12>@e6e_<g+6
+E @e2c3>@e6g_<b6@e2c12r12c12r12>@e6e_<g+6
+E @e2g6g12g12>@e6g_<b6@e2g12g12g12g12>@e5g_d+12g_d+12c_<g+12
+
+E [
+E @e2c4>@e6g_<b6@e2c12r12c12r12>@e5g_d+12g_d+12c_<g+12
+E @e2e4>@e6g_<b6@e2e12r12e12r12>@e5g_d+12g_d+12c_<g+12
+E @e2f4>@e6g_<b6@e2f12r12f12r12>@e5g_d+12g_d+12c_<g+12
+E @e2f4>@e6g_<b6@e2f12r12f12r12>@e5g_d+12g_d+12c_<g+12
+E @e2a4>@e6g_<b6@e2a12r12a12r12>@e5g_d+12g_d+12c_<g+12
+E |
+E @e2e4>@e6g_<b6@e2e12r12e12r12>@e5g_d+12g_d+12c_<g+12
+E @e2a4>@e6g_<b6@e2a12r12a12r12>@e5g_d+12g_d+12c_<g+12
+E @e2d12d12d12>@e6g_<b6@e2d12g12g12g12>@e5g_d+12g_d+12c_<g+12
+E ]
+
+E @e2f4>@e6g_<b6@e2f12r12f12r12>@e5g_d+12g_d+12c_<g+12
+E @e2d12d12d12>@e6g_<b6@e2d12g12g12g12>@e5g_d+12g_d+12<
+E @e2c3>@e6g_<b6@e2c12r12c12r12>@e5g_d+12g_d+12c_<g+12
+E ]0
+
+@e0={0,0,d.e.c:2.b:2.a:4.9:2.8:3.7:3.6}
+@e1={0,0,d.e.c:2.b:2.a:2.b.a.9:2.8:3.7:3.6}
+@e2={0,0,b.c.a:2.9:2.8:2.9.8.7:2.6:3.5.7.6.5.4}
+@e3={0,0,b.c:2.a.9:2.8:2.9.8.7:2.6:3.5.7.6.5.4}
+@e4={0,0,a.b.9:2.8:2.7:2.8.7.6:2.5:3.4.6.5.4.3}
+@e5={0,0,d.b.a:2.9:2.8:3.7.6:2.5:2.4}
+@e6={0,0,d.b.a:2.9:2.8:2.7:2.6:2.5:2.4:2.3}

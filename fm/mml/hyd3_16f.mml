@@ -1,0 +1,277 @@
+;[gain=2.0 name=hyd3_16f duration=300s fade=5s]
+#opll_mode 1
+#tempo 150
+#title { "HYDLIDE 3 - The New Creator (Ending 2) "}
+;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
+;#psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
+;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
+#opll_tune { 176, 186, 197, 210, 222, 235, 249, 264, 280, 297, 314, 332 }
+
+@v15 = { ; PSG
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0,15, 0, 4, 0, 0, 1, 0, 0,
+  12, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+
+@v16 = { ; Organ
+;       TL FB
+        38, 3,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9, 2, 0, 0, 5, 0, 0, 0, 1, 0,
+  14, 2, 0, 0, 0, 3, 0, 0, 0, 0, 1 }
+  
+@v17 = { ; Lead
+;       TL FB
+        33, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   9, 0, 0, 8, 0, 6, 0, 0, 1, 0, 1 }
+
+CDE v15
+
+9 @16o4v9 l8
+9 g2...>c8.<b8.>c8.<
+9 a2.>d2.e1&e8c4.<b1&b2>
+9 c2...<b8.>c8.d8.<g2.b2.
+9 a1&a1 (a8(a8(a8(a8(a8(a8(a8(a8
+9 [ @17v10g2^8>c8<b8>c8
+9 <a2>d4c8d8
+9 e2.c4
+9 <b%174
+9 r16.>c2^8
+9 <b8>c8d8<g2
+9 b4a8b8>c2.
+9 d8c8<b%174r16.
+
+9 @17 g2^8
+9 >c8<b8>c8<a2
+9 >d4c8d8e2.
+9 c4<b%174r16.a2.
+9 g8a8b2
+9 >d2c+1&c+%174
+9 r16.
+9 @0>a1
+9 b1
+9 g1
+9 d2
+9 c4
+9 <b8>c8a2
+9 r8g4.f2
+9 r8e4.d1
+9 c8c4
+9 d2^8g2^8
+9 >c8<b8>c8<a2
+9 >d4c8d8e2.
+9 c4<b%174
+9 r16.a2.
+9 g8a8b2
+9 >d2c1c1<<<
+9 ]0
+
+A \-1@16o4v9 l8
+A e1&e2 a1&a2 a1&a2
+A a2.g+2. a1&a2 b1&b2
+A >c+1&c+1 (c+8(c+8(c+8(c+8(c+8(c+8(c+8(c+8
+A [ r12@17<v8g2^8>c8<b8>c8
+A <a2>d4c8d8
+A e2.c4
+A <b%174
+A r16.>c2^8
+A <b8>c8d8<g2
+A b4a8b8>c2.
+A d8c8<b%174r16.
+
+A @17 g2^8
+A >c8<b8>c8<a2
+A >d4c8d8e2.
+A c4<b%174
+A 
+A r16.a2.
+A g8a8b2
+A >d2c+1&c+%174
+A 
+A r16.
+A @0>v10a1
+A b1
+A g1
+A d2
+A c4
+A <b8>c24v11e2
+A r8d4.c2
+A r8<b4.a1
+A a8a4
+A b2^8r12>v10g2^8
+A >c8<b8>c8<a2
+A >d4c8d8e2.
+A c4<b%176
+A v11e2.
+A d8e8f2
+A d2g1g1<
+A ]0
+
+A v9g2^8
+A >c8<b8>c8<a2
+A >d4c8d8e2.
+A c4<b%174
+A 
+A r16.>c2^8
+
+B @16o2v9
+B c1&c2 f+1&f+2
+B f1&f2 e1&e2
+B d1&d2 e1&e2
+B a1&a1 (a8(a8(a8(a8(a8(a8(a8(a8
+B >>
+B [
+B @7v11g1a1>e1<b1>c1<g1>c1<b2r2
+B [r1]24
+B ]0
+
+*0={vb13b12vb11b24}
+*1={vh8h%2vh0r%22}
+
+F y22,45y38,4y23,0y39,0y24,0y40,0
+F [r1r2]8 
+F [
+F [r1]8 
+F [*1*1*0*1*1*1*0*1]8
+F [*0*1*0*1*0*1*0*1]7
+F [*1*1*0*1*1*1*0*1]8
+F  *0*1*0*1*0*1*0*1
+F ]0
+
+C o5@4(6 l1 e1&e2&d+1&d+2&e1&e2&d1&d2&c1&c2&d1&d2&c+1&c+1&c+2r2 )5; @15
+C [ l1
+C o5q0@4@e0 g1&a1&a1&a2&g+2&a1&b1&a1&b1
+C @e1 l16
+C c16e16g16b16 c16e16g16b16 
+C c16e16g16b16 c16e16g16b16 
+C c16e16f+16a16 c16e16f+16a16
+C c16e16f+16a16 c16e16f+16a16 
+C c16e16f16a16 c16e16f16a16
+C c16e16f16a16 c16e16f16a16
+C d16e16a16b16 d16e16a16b16
+C d16e16g+16b16 d16e16g+16b16
+C c16d16f16a16 c16d16f16a16
+C c16d16f16a16 c16d16f16a16
+C d16e16g16b16 d16e16g16b16
+C d16e16g16b16 d16e16g16b16
+C c+16e16g16a16 c+16e16g16a16
+C c+16e16g16a16 c+16e16g16a16
+C c+16e16g16a16 c+16e16g16a16
+C c+16e16g16a16 c+16e16g16a16
+C l8
+C e8e8e8e8e8e8<@e2g_c+8e_<a+8>>
+C @e1f8f8f8f8f8f8<@e2e_<a+8>c_<f+8>>
+C @e1g8g8g8g8g8g8<@e2g_c+8e_<a+8>>
+C @e1e8e8e8e8e8e8<@e2e_<a+8>c_<f+8>>
+C @e1c8c8c8c8c8<@e2b_f8g_c+8e_<a+8>
+C @e1a8a8a8a8a8@e2g_c+8e_<a+8>c_<f+8>
+C @e1f8f8f8f8f8@e2g_e16g_e16e_<a+8>c_<f+8>b_f8g_<b6r12>e_<a+8r4>g_e16g_e16c_<f+8>>
+C @e1 l16
+C c16e16g16b16 c16e16g16b16
+C c16e16g16b16 c16e16g16b16
+C c16e16f+16a16 c16e16f+16a16
+C c16e16f+16a16 c16e16f+16a16
+C d16e16g+16b16 d16e16g+16b16
+C d16e16g+16b16 d16e16g+16b16
+C c+16e16g16a16 c+16e16g16a16
+C c16d16f16a16 c16d16f16a16
+C c16e16f16a16 c16e16f16a16
+C c16e16f16a16 c16e16f16a16
+C d16f16g16b16 d16f16g16b16
+C d16f16g16b16 d16f16g16b16
+C c16e16g16b16 c16e16g16b16
+C c16e16g16b16 c16e16g16b16
+C c16e16g16b16 c16e16g16b16
+C c16e16g16b16 c16e16g16b16
+C ]0
+
+D o4@4(6 l1 b1&b2&>c1&c1&c1&<b1&b2&a1&a2&b1&b2&g1&g1&g2r2 )5;@15
+
+D [ l1
+D o5q0 @4@e0 e1&c1&c1&<b1&>f1&g1&f1&d2.<@e2e_c+16e_c+16c_<f+8>>
+D @e1 l16
+D f+16g16r16g16 r16g16r16g16
+D f+16g16r16g16 r16g16r16g16
+D b16>c16r16c16 r16c16r16c16<
+D b16>c16r16c16 r16c16r16c16<
+D b16>c16r16c16 r16c16r16c16<
+D b16>c16r16c16 r16c16r16c16<
+D a+16b16r16b16 r16b16r16b16
+D a+16b16r16b16 r16b16r16b16
+D g+16a16r16a16 r16a16r16a16
+D g+16a16r16a16 r16a16r16a16
+D a+16b16r16b16 r16b16r16b16
+D a+16b16r16b16 r16b16r16b16>
+D c16c+16r16c+16 r16c+16r16c+16
+D r16c+16r16c+16 r16c+16r16c+16
+D c16c+16r16c+16 r16c+16r16c+16
+D r16c+16r16c+16 r16c+16r16c+16
+D l8
+D c8c8c8c8 c8c8c8c8
+D d8d8d8d8 d8d8d8d8
+D d8d8d8d8 d8d8d8d8
+D c8c8c8c8 c8c8c8c8
+D e8e8e8e8 e8d8d8d8
+D c8c8c8c8 c8<b8b8b8
+D a8a8d8a8 f8a8c8a8
+D a8a8a8b8 b8b8b8b8
+D l16
+D f+16g16r16g16 r16g16r16g16
+D f+16g16r16g16 r16g16r16g16
+D b16>c16r16c16 r16c16r16c16<
+D b16>c16r16c16 r16c16r16c16<
+D a+16b16r16b16 r16b16r16b16
+D a+16b16r16b16 r16b16r16b16
+D d+16e16r16e16 r16e16r16e16
+D g+16a16r16a16 r16a16r16a16
+D b16>c16r16c16 r16c16r16c16<
+D b16>c16r16c16 r16c16r16c16<
+D c+16d16r16d16 r16d16r16d16
+D c+16d16r16d16 r16d16r16d16<
+D f+16g16r16g16 r16g16r16g16
+D f+16g16 @e3 g96&f+48&f48&e96&g16 e96&d+48&d48&c+96&g16 c96&<b48&a+48&a96&>g16
+D @e1
+D f+16g16r16g16 r16g16r16g16 
+D f+16g16r16g16 r16g16r16g16
+D ]0
+
+E o4@4(6l1 g1&g2&a1&a1&a1&g1&g2&f1&f2&g1&g2&e1&e1&e2r2 )5 ; @15
+E [ l1
+E q0 o3@4@e4c1f+1f1e1d1e1d1g1
+E l16
+E @e4c4..@e5c16 @e4c4..@e5c16
+E @e4f+4..@e5f+16 @e4f+4..@e5f+16
+E @e4f4..@e5f16 @e4f4..@e5f16
+E @e4e4..@e5e16 @e4e4..@e5e16
+E @e4d4..@e5d16 @e4d4..@e5d16
+E @e4e4..@e5e16 @e4e4..@e5e16
+E @e4a4..@e5a16 @e4a4..@e5a16
+E @e4a4..@e5a16 @e4a4..@e5a16
+E @e4f4..@e5f16 @e4f4..@e5f16
+E @e4f4..@e5f16 @e4f4..@e5f16
+E @e4e4..@e5e16 @e4e4..@e5e16
+E @e4d4..@e5d16>d16e16d16e16d16e16d16e16<
+E @e4a4..@e5a16 @e4a8g4.
+E @e4f4..@e5f16 @e4f8e4.
+E @e4d4..@e5d16 @e4d4..@e5d16
+E @e4g8g4g2^16 @e5g16
+E @e4c4..@e5c16 @e4c4..@e5c16
+E @e4f+4..@e5f+16 @e4f+4..@e5f+16
+E @e4e4..@e5e16 @e4e4..@e5e16
+E @e4a4..@e5a16 @e4d4..@e5d16
+E @e4f4..@e5f16 @e4f4..@e5f16
+E @e4g4..@e5g16 @e4g4..@e5g16
+E @e4c4..@e5c16 @e4c4..@e5c16
+E @e4c4..@e5c16 @e4c4..@e5c16
+E ]0
+
+@e0={0,0,7:250.7:250.7:250.7:250.7:45.6:12.5:12.4:12.3}
+@e1={0,0,a.8:3.7:4.6}
+@e2={0,0,d.b.a.9:2.8.7:2.6:2.5:2.4:2.3}
+@e3={0,0,d.b.a.9:2.8.a.8:3.7}
+@e4={0,0,d:2.c.b:2.a:3.9:3.8:12.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7:5.8.7}
+@e5={0,0,c.b.a.9:2.8}
+

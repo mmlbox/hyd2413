@@ -1,0 +1,245 @@
+;[gain=2.0 name=hyd3_05f duration=300s fade=5s]
+#opll_mode 1
+#tempo 150
+#title { "HYDLIDE 3 - Fairyland (Field)"}
+;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
+;#psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
+;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
+#opll_tune { 176, 186, 197, 210, 222, 235, 249, 264, 280, 297, 314, 332 }
+
+@v15 = { ; PSG
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0,15, 0, 4, 0, 0, 1, 0, 0,
+  12, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+
+#alloc { C=1500 }
+
+CDE @15v15
+
+9 [ @11q6o5v11 l8
+9 c2<a8>c8e8d8
+9 c8<a+4a2^8
+9 a+8>c8<a+8a4>d4a4g2..
+9 d8<g2g8f+8g8
+9 a4>e4c4<a4
+9 >d8<g4a4a+4>c8
+9 f2e%78r96
+9 r12c2r8c8e8d8c8<a+4a4
+9 a+4a+8>c8<a+4a4
+9 >d4a4g2..
+9 d8<g2g8f+8g8a4>e4.
+9 d8c16<a+16a8>d8<g4a8a+8
+9 a4g8f%176
+9 r12@1q8>v8
+9 d+8d+8d+8d+8d+8d+8d+8d+8
+9 d8d8d8d8d8d8d8d8
+9 c8c8c8c8c8c8c8c8
+9 f8f8f8f8f8f8f8f8
+9 g8g8g8g8g8g8g8g8
+9 d+8d+8d+8d+8d+8d+8d+8d+8
+9 d8d8d8d8d8d8d8d8
+9 g8g8g8g8g8g8g8g8
+9 @0v11 >
+9 c2r8c8e8d8c8<a+4a4a+4
+9 a+8>c8<a+4a4>d4a4g2..
+9 f2e8f8e8d8&d1
+9 f4.e4.f2.f16g16a16a+16>c16d16e16f16
+9 f4.e4.f4&f1 ]0
+
+A [ r12@11q6o5v9\-1 l8
+A c2<a8>c8e8d8
+A c8<a+4a2^8
+A a+8>c8<a+8a4>d4a4g2..
+A d8<g2g8f+8g8a4>e4c4<a4
+A >d8<g4a4a+4>c8
+A f2e%78r96
+A r12c2r8c8e8d8c8<a+4a4
+A a+4a+8>c8<a+4a4
+A >d4a4g2..
+A d8<g2g8f+8g8a4>e4.
+A d8c16<a+16a8>d8<g4a8
+A a+8a4g8f%176
+A @1q8v8>
+A g8g8g8g8g8g8g8g8
+A f8f8f8f8f8f8f8f8
+A d+8d+8d+8d+8d+8d+8d+8d+8
+A d8d8d8d8d8d8d8d8
+A e8e8e8e8e8e8e8e8
+A c8c8c8c8c8c8c8c8<
+A a+8a+8a+8a+8a+8a+8a+8a+8
+A a+8a+8a+8a+8a+8a+8a+8a+8
+A r12>>@0v9
+A c2r8c8e8d8c8<a+4a4
+A a+4a+8>c8<a+4a4>d4a4g2..
+A f2e8f8e8d1&d8f4.e4.f2.
+A f16g16a16a+16>c16d16e16f16
+A f4.e4.f1&f8^32 ]0
+
+F y22,181y38,4y23,0y39,0y24,0y40,0
+F vb13vc10vh8vs10 
+F [ 
+F l16
+F [h8h8s8h8h8s8h16h16s8]15
+F s8h8h8s8r2
+
+F [h8h8s8h8h8s8h16h16h8]8
+F [h16h16h16h16s16h16h16h16]12
+F [
+F s16h16h16h16h16h16s16h16
+F h16h16h16h16s4 
+
+F [h16]8
+F [h16]6|h16h16
+F ]2 s8
+F ]0
+
+C [ o4\0 l12
+C [@e0c12@e1c12@e2c6^24@e0c12@e1c12@e2c12@e0c12@e1c12@e2c12 <@e3c_<f+8>>]2
+C [
+C   @e0d12@e1d12@e2d6^24@e0d12@e1d12@e2d12@e0d12@e1d12@e2d12 <@e3c_<f+8>>
+C |
+C   @e0c12@e1c12@e2c6^24@e0c12@e1c12@e2c12@e0c12@e1c12@e2c12 <@e3c_<f+8>>
+C ]3
+C @e0e12@e1e12@e2e6^24@e0e12@e1e12@e2e12@e0e12@e1e24 <@e3c_<a16>c_<a16>c_<a16>c_<a16>>>
+
+C [@e0c12@e1c12@e2c6^24@e0c12@e1c12@e2c12@e0c12@e1c24 <<@e3g_c+8c_<f+8>>>]2
+C [
+C   @e0d12@e1d12@e2d6^24@e0d12@e1d12@e2d12@e0d12@e1d24 <<@e3g_c+8c_<f+8>>>
+C   @e0c12@e1c12@e2c6^24@e0c12@e1c12@e2c12@e0c12@e1c24 <<@e3g_c+8c_<f+8>>>
+C ]2
+C [@e0d12@e1d24@e0d12@e1d24 <<@e3g_c+8c_<f+8>>>]2
+C @e0f12@e1f12@e2f6^24@e0f12@e1f24 
+C l16 <<@e3g_e16g_e16g_e16g_e16c_<a16>c_<a16>c_<a16>c_<a16>>>
+
+C @e4 l8
+C h10,2,0,1 g+4.g+4 hf f8g+8f8
+C h10,2,0,1a+4 hfg+8 h10,2,0,2 g4f4g2^8r8 hf f8g8f8a+8 
+C h10,2,0,1g+4h10,2,0,2g4 f4.g2r8<hfa+8>c8d+8h10,2,0,2g4.f4.d+4f1e2 hf
+C l16 <<@e3g_e16g_e16g_e16g_e16g_e16g_e16c_<f+8>>>
+C l12
+C @e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24 <<@e3g_c+8e_<a+8>c_<f+8>>>
+C @e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24 <<@e3c_<f+8>g_c+8c_<f+8>>>
+C @e0d12@e1d24@e0d12@e1d24@e0d12@e1d24@e0d12@e1d24@e0d12@e1d24 <<@e3g_c+8e_<a+8>c_<f+8>>>
+C @e0c+12@e1c+24@e0c+12@e1c+24@e0c+12@e1c+24@e0c+12@e1c+24@e0c+12@e1c+24 <<@e3g_c+8e_<a+8>c_<f+8>>>
+C @e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24@e0c12@e1c24 <<@e3g_c+8e_<a+8>c_<f+8>>>
+C @e0d12@e1d24@e0d12@e1d24@e0d12@e1d24@e0d12@e1d24@e0d12@e1d24 <<@e3c_<a16>c_<a16>g_c+8r8>>
+C @e0f12@e1f24 <<@e3g_c+8c_<f+8>>>
+C @e0e12@e1e24 <<@e3f_<b8>c_<f+8>>>
+C @e0d12@e1d12@e2d3^6. 
+C l16 <<@e3g_e16g_e16g_e16g_e16c_<a16>c_<a16>c_<a16>c_<a16>>>>
+C l8
+C @e0f12@e1f24 <<<@e3c_<f+8>c_<f+8>>>>
+C @e0e12@e1e24 <<<@e3c_<f+8>c_<f+8>>>>
+C @e0d12@e1d12@e2d3^3. <<<@e3g_e16g_e16c_<f+8>>
+C ]0
+
+D [ o4
+D [
+D   [@e0a12@e1a12@e2a6^24@e0a12@e1a12@e2a12@e0a12@e1a12@e2a6^24]3
+D   @e0g12@e1g12@e2g6^24@e0g12@e1g12@e2g12@e0g12@e1g12@e2g6^24
+D   @e0f12@e1f12@e2f6^24@e0f12@e1f12@e2f12@e0f12@e1f12@e2f6^24
+D   @e0g12@e1g12@e2g6^24@e0g12@e1g12@e2g12@e0g12@e1g12@e2g6^24 
+D |
+D   @e0a12@e1a12@e2a6^24@e0a12@e1a12@e2a12@e0a12@e1a12@e2a6^24
+D   @e0a+12@e1a+12@e2a+6^24@e0a+12@e1a+12@e2a+12@e0a+12@e1a+12@e2a+6^24
+D ]
+
+D @e0a12@e1a12@e2a6^24@e0a12@e1a24r8@e0a+12@e1a+24r4>@e0c12@e1c12@e2c6^24
+D @e0c12@e1c12@e2c12r3^12.
+D @e5g+12@e6g+12@e2g+6^24@e5g+12@e6g+12@e2g+12@e5f12@e6f24
+D @e5g+12@e6g+24@e5f12@e6f24@e5a+12@e6a+12@e2a+12@e5g+12@e6g+24
+D @e5g12@e6g12@e2g12@e5f12@e6f12@e2f12@e5g12@e6g12@e2g3^12.
+D r8@e5f12@e6f24@e5g12@e6g24@e5f12
+D @e6f24@e5a+12@e6a+24@e5g+12@e6g+12@e2g+12@e5g12
+D @e6g12@e2g12@e5f12@e6f12@e2f6^24
+D @e5g12@e6g12@e2g3
+D r8<@e5a+12@e6a+24>@e5c12@e6c24@e5d+12
+D @e6d+24@e5g12@e6g12@e2g6^24@e5f12
+D @e6f12@e2f6^24@e5d+12@e6d+12@e2d+12@e5f12@e6f12@e2f3^3.
+D @e5e12@e6e12@e2e2.
+D <
+D [@e0a12@e1a24@e0a12@e1a24@e0a12@e1a24@e0a12@e1a24]6
+D [@e0g12@e1g24@e0g12@e1g24@e0g12@e1g24@e0g12@e1g24]2
+D [@e0a12@e1a24@e0a12@e1a24@e0a12@e1a24@e0a12@e1a24]2
+D [@e0b12@e1b24@e0b12@e1b24@e0b12@e1b24@e0b12@e1b24]2
+D >
+D @e0d12@e1d12@e2d6^24@e0c12@e1c12@e2c6^24<@e0a+12@e1a+12@e2a+12>
+D @e5d16<g16a+16d16f16<a+16>d16f16g16d16f16g16a+16f16g16a+16>
+D @e0d12@e1d12@e2d6^24@e0c12@e1c12@e2c6^24<@e0a+12@e1a+12@e2a+12&a+1 
+D ]0
+
+E [ o3\0
+E @e7f6@e8f6^24@e7f8
+E r8f8r8f8d6
+E @e8d6^24@e7d8r8d8
+E r8d8<a+6@e8a+6^24
+E @e7a+8r8a+8r8
+E a+8a6@e8a6^24
+E @e7a8r8a8r8a8
+E g6@e8g6^24@e7g8
+E r8g8r8g8a6
+E @e8a6^24@e7a8r8a8
+E r8a8a+6@e8a+6^24
+E @e7a+8r8a+8r8
+E a+8>c6@e8c6^24
+E @e7c8r8c8r8c8
+E f6@e8f6^24@e7f8
+E r8f8r8f8d6
+E @e8d6^24@e7d8r8d8
+E r8d8<a+6@e8a+6^24
+E @e7a+8r8a+8r8
+E a+8a6@e8a6^24
+E @e7a8r8a8r8a8
+E g6@e8g6^24@e7g8
+E r8g8r8g8a6
+E @e8a6^24@e7a8r8a8
+E r8a8a+6@e8a+6^24
+E @e7a+8r8>c6@e8c12
+E @e7c8d6@e8d6^24
+E @e7d8r8d8r4
+E g+6h2,2,0,1@e8g+6^24hf@e7g+6@e8g+3^12.
+E @e7g6
+E @e8g6^24@e7g6@e8g3^12.
+E h6,2,0,2@e7f6hf@e8f6^24
+E h1,3,0,2@e7f6hf@e8f3^12.
+E @e7a+6@e8a+6^24
+E @e7b6@e8b3^12.
+E @e7c6h2,2,0,2@e8c6^24
+E hf@e7c6@e8c3^12.
+E @e7f6h2,2,0,2@e8f6^24hf@e7f6
+E @e8f3^12.
+E @e7c6h2,2,0,2@e8c6^24hf@e7c6@e8c3^12.
+E @e7c6
+E h2,2,0,2@e8c6^24hf@e7c6@e8c3^12.
+E @e7f6@e9f12
+E @e7f6@e8f12r8@e7f8
+E r8f8d6@e9d12@e7a6
+E @e8a12@e7f6@e8f12@e7d6
+E @e8d12<@e7a+6@e9a+12@e7a6
+E @e8a12@e7g6@e8g12@e7a6
+E @e8a12@e7a6@e9a12>@e7c+6
+E @e8c+12@e7d6@e8d12@e7e6
+E @e8e12@e7d6@e9d12@e7c+6
+E @e8c+12@e7c6@e8c12<@e7b6
+E @e8b12@e7g6@e9g12@e7g6
+E @e8g12r8@e7g8r8g8
+E a+6@e8a+6^24@e7a6
+E @e8a6^24@e7g6@e8g3^12.
+E >@e0g12
+E @e1g24@e0a12@e1a24@e0g12@e1g12@e2g6^24
+E <@e7a+6@e8a+6^24@e7a6
+E @e8a6^24@e7g6@e8g1&g12 ]0
+
+@e0={0,0,b.9.8:2.7:2.6}
+@e1={0,0,9.7.6:2.5:2.4}
+@e2={0,0,7.5.4:4.[5.4:5]}
+@e3={0,0,c.a:2.9:2.8:2.7:2.6:2.5}
+@e4={0,0,d.b.a:4.9:4.8:5.7:5.6}
+@e5={0,0,a.8.7:4.6}
+@e6={0,0,9.7.6.5:4.4}
+@e7={0,0,e.c.b:2.a:3.9:3.8:3.7}
+@e8={0,0,a.9.8:2.7:3.[6:5.7]}
+@e9={0,0,a.9.b.9.8:2.7}
+

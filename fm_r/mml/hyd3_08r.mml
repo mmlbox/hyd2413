@@ -1,0 +1,80 @@
+;[gain=2.0 name=hyd3_08f duration=300s fade=5s]
+#opll_mode 1
+#tempo 150
+#title { "HYDLIDE 3 - Big Monster (Boss)"}
+;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
+;#psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
+;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
+#opll_tune { 176, 186, 197, 210, 222, 235, 249, 264, 280, 297, 314, 332 }
+
+@v15 = { ; PSG
+;       TL FB
+        28, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0,15, 0, 4, 0, 0, 1, 0, 0,
+  12, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+  
+CDE @15v15
+
+9 [
+9 @9o6v9l8
+9 [ c8<b4a1&a4 c8e8a8>c8<a4f1&f4 d8f8a8>d8< a4f1&f4 f8a8>c8<
+9   b8a8g+8>f8 e8d8c8<b8> d8c8<b8g+8 e8f8g+8b8> ]
+9 c8<b8a8>c4<a8b8> c8d8<b4g4f4.>
+9 d8<b8g8>d4<b8>c8d8 e8c4<a4b4.>
+9 c8<b8a8>c4<a8b8>c8 d8<b4g4f4.
+9 a8g+8>c8<b8>d8<b8>g8f8
+9 l16 e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16f16
+9 ]0
+
+A \1
+A [@9o6v7l8 r12
+A [ c8<b4a1&a4 c8e8a8>c8<a4f1&f4 d8f8a8>d8< a4f1&f4 f8a8>c8<
+A   b8a8g+8>f8 e8d8c8<b8> d8c8<b8g+8 e8f8g+8|b32r16.> ] b24r16
+A c8<b8a8>c4<a8b8>c8 d8<b4g4f4.>
+A d8<b8g8>d4<b8>c8d8 e8c4<a4b4.>
+A c8<b8a8>c4<a8b8>c8 d8<b4g4f4.
+A a8g+8>c8<b8>d8<b8>g8f8
+A l16 e16f16e16f16e16f16e16f16e16f16e16f16e16f16e16
+A ]0
+
+F vb13vc10vh8vs10 
+F l16
+F [ [
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16b16h16
+F h16h16b16h16s16h16h16h16
+F ]12 ]0
+
+C [ o5@e0 l8
+C [ r8a8b8>h20,2,0,4c2hfa8g8f+8d8h20,2,0,3e2^8<hf ]8 <
+C [ [a8]8 [b8]8 | [b8]8 >c8c8c8c8<b8b8b8b8 ]
+C g+8e8g+8b8g+8g+8g+8>d8 <[g+8]8
+C ]0
+
+D [o3@e1 l8
+D [ r4 [c_<e8.|r4^16>c_<e8.r4^16>]8 r16>g32g32g_e16g_e16g_e16e_c+16e_c+16c_<a16>|c_<a16> ] 
+D @e2c8.>>@e0 
+D c8<<@e1c_<f+8>>>@e0c8c8c8<<@e1c_<f+8>>>@e0c8
+D d8d8<<@e1c_<f+8>>>@e0d8d8<<@e1c_<a16>c_<a16>g_c+8>>@e0d8<
+D g8g8<@e1c_<f+8>>@e0g8g8g8<@e1c_<f+8>>@e0g8>
+D e8e8<<@e1c_<f+8>>>@e0e8<<@e1c_<a16>c_<a16>c_<a16>c_<a16>g_c+8>>@e0e8
+D c8c8<<@e1c_<f+8>>>@e0c8c8c8<<@e1c_<f+8>>>@e0c8
+D d8d8<<@e1c_<f+8>>>@e0d8d8<<@e1c_<a16>c_<a16>g_c+8>>@e0d8<
+D b8b8<@e1c_<f+8>>@e0b8b8b8<@e1c_<f+8>>@e0b8<
+D @e1l16 b32b32b_g+16b_g+16b_g+16 g_e16g_e16g_e16g_e16 
+D e32e32e_c+16e_c+16e_c+16 c_<a16>c_<a16>c_<a16>c_<a16
+D ]0
+
+E [ l16
+E o2@e3
+E [ [a8a16a16]8 [f8f16f16]8 [d8d16d16]8 [e8e16e16]8 ]
+E [ [f8f16f16]4 [g8g16g16]4 [e8e16e16]4 | [a8a16a16]4 ]
+E e8e16e16<e8e16e16g+8g+16g+16b8b16b16
+E ]0
+
+@e0={0,0,a.c.b.a.9.8:2.7:2.6:3.5:4.4}
+@e1={0,0,d.b.a:2.9:2.8:2.7:2.6:2.5:2.4:2.3}
+@e2={0,0,d.b.a:2.9:2.a.c.b.a.9.8:2.7:2.6}
+@e3={0,0,c.d.c.b.a.9.8.7:2.6}

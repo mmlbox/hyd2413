@@ -1,0 +1,189 @@
+;[gain=2.0 name=hyd3_03r duration=300s fade=5s]
+#opll_mode 1
+#tempo 150
+#title { "HYDLIDE 3 - Out of Freedom (Town)" }
+;#psg_tune { 3323, 3137, 2961, 2794, 2638, 2490, 2350, 2218, 2093, 1976, 1865, 1760 }
+;#psg_tune { 3332, 3144, 2968, 2800, 2644, 2496, 2356, 2224, 2100, 1980, 1868, 1764 }
+;#opll_tune { 177, 188, 199, 211, 224, 237, 251, 266, 282, 299, 316, 335 }
+#opll_tune { 176, 186, 197, 210, 222, 235, 249, 264, 280, 297, 314, 332 }
+
+@v15 = { ; PSG
+;       TL FB
+        28, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0,15, 0, 4, 0, 0, 1, 0, 0,
+  12, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+
+#alloc { C=1500,D=1500 }
+
+CDE @15v15 
+
+9 [
+9 @1o5v9\2l8
+9 [
+9 a4.a8r8a8r8b2>g2^8<
+9 a4.g2a2g2^8
+9 a4.>a2<g2>g2^8<|
+9 a+2..>v10c4c12r24c12r24c8r2<v9
+9 ]2
+9 a+4.>c2^8c8.c8.c8r2
+9 <v10
+9 d4f8e4>c4
+9 v9c+32c32<a+32b32v10a4..>v9a8a16g8a8
+9 r8<v10d4f8e4>c4
+9 v9c+32c32<a+32b32v10a4..>v8a8a16g8a8
+9 r8<v10g8a8g8f4e4.
+9 f8g8f8d2^8
+9 g8a8e8f4g4.
+9 e8r16e8r16e8r2
+9 >v9
+9 [e2.. d2>d2^8<]3
+9 e4.>e2^8 <d8r16d8r16d8r8g8r4
+9 ]0
+
+A [
+A @1o5v9\0l8
+A [
+A f4.f8r8f8r8f2>d2^8<
+A f4.e2f2e2^8
+A f4.>f2<e2>e2^8<|
+A f2..v10g4g12r24g12r24g8r2v9
+A ]2
+A g4.g2^8c8.a8.a8r%108
+A \-1
+A d4f8e4>c4
+A v8c+32c32<a+32b32v9a4.>f8f16e8f8
+A r8.<d4f8e4>c4
+A v8c+32c32<a+32b32v9a4.>v8f8f16e8f8
+A r8.<v9g8a8g8f4e4.
+A f8g8f8d2^8
+A g8a8e8f4g4^16
+A v10g8r16g8r16g8r2
+A \0
+A v9
+A [f2.. b2>f2^8<]3
+A f4.>f2^8 <b8r16b8r16b8r8>d8r4
+A ]0
+
+F vb13vc10vh8vs10 
+F [ l8
+F [
+F   [ h24h24h24h8s4h8s8h8s8 
+F     h8h8s8h8h16h16h16h16s8cb8 ]2
+F h8h8s8h8h8h8s8h8
+F h8h8s8h8h8h8s8h8 |
+F h8h8s8r8h16h16h16h16s8vs+1s4 s8s8s8vs-1s8s8s16s16s8
+F ]2
+
+F h4s8h4s8h16h16h8 vs+1s8.s8.s8r8vs-1s8s16s16s8
+
+F [ h8h8s8h8h8 | h8s8s8 h8h8s8h8h8h8s16s16s8 ]3
+
+F s8h8h8h8h8s8h8h8s8h8h8
+F l16
+F h16h16h16h16s16s16h16h16h16h16h16h16s16s16h16h16
+F vs+1s8.s8.s8vs-1r2
+F [[h16]14s16h16]7
+F vs+1s8.s8.s8r8s8r4vs-1
+F ]0
+
+C [
+C @e0o4
+C l8
+C [ 
+C d8c8<a8>c8 r8e8r8d2^8
+C r8d8f8g8 a8g8f8g8
+C r8>c8r8<a2..r8
+C a16a+16a8d8f8
+C g8r8>c8r8<
+C a4c8e8g8
+C f8e8r8d16f16|
+C g8f8d8f8
+C r8a8r8>c4<b16a+16a4r8<
+C g_c+8g_e16g_e16c_<f+8>>
+C ]2
+C g4f8e4f16e16c4 d2
+C r8<g_c+8g_e16g_e16c_<f+8>>
+C l8 @e1
+C a8a8a8a8a8 @e0<a_d+8f_<b8>d_<g+8>>@e1
+C a8a8a8a8a8a8a8 @e3<a_d+8>@e1
+C a8a8a8a8a8 @e0<a_d+8f_<b8>d_<g+8>>@e1
+C a8a8a8a8a8a8a8 @e3<d_<g+8>>@e1
+C b8b8b8g8g8g8 @e0<a_d+8f_<b8>>@e1
+C a8a8a8d8d8d8 @e0<f_<b8>d_<g+8>>@e1
+C a8a8 @e0<a_d+8d_<g+8>>@e1 a+8a+8 @e0<d_<g+8>d_<g+8>>
+C e8.e8.e8
+C l16 <g_e16g_e16g_e16g_e16e_c+16e_c+16e_c+16e_c+16>>>
+
+C @e4 l8
+C [d8c8<a8>c8r8e8f8e8|d16<b16g8b8>d8f16g16f8d8r8]4 d8.d8.d8r2 ]0
+
+D [
+D @e6o4l8r16
+D [
+D d8c8<a8>c8 r8e8r8d2^8
+D r8d8f8g8 a8g8f8g8
+D r8>c8r8<a2..r8
+D a16a+16a8d8f8
+D g8r8>c8r8<
+D a4c8e8g8
+D f8e8r8d16f16|
+D g8f8d8f8
+D r8a8r8>c4<b16a+16a4r2
+D ]2
+D g4f8e4f16e16c4d2r4..
+
+D @e4
+D f8e8f8g8 r8e8f8d8
+D l16 f16e16d16e16 f16g16a16>c16 d16e16f16g16 a16>c16d16e16<< l8
+D f8e8f8g8 r8e8f8g8
+D l16 f16e16d16e16 f16g16a16>c16 d+16f+16g16a16 b16>c16d+16f+16<< l8
+D d8e8d8c+8 r8c+8r4
+D c8d8c8<b8 r8b8r4
+D l16 a16a+16>d16f16< a16a+16>d16f16< @e1g16a+16>d16f16< @e8g16a+16>d16f16
+D c8r16c8r16c8r2.<
+
+D @e0 l8
+D f_<b8r4.>
+D f_<b8>d_<g+8r4>f_<b8r4>
+D a_d+8r8a_d+8r4f_<b8r4.>
+D f_<b8>d_<g+8r4>f_<b8r8>
+D a_f+16a_f+16f_<b8>f_<b8>d_<g+8r4>f_<b8r4.>
+D f_<b8>f_<b8r4>f_<b8r4>f_<b8r8>f_<b8r4>f_<b8r8>
+D l16 
+D f_d16f_d16f_d16f_d16d_<b16>d_<b16>d_<b16>d_<b16>
+D @e1 f8.f8.f4> f_<a16.r%54
+D ]0
+
+E [
+E @e0o2 l8
+E [
+E d4.>d8r8<d4g2
+E g8r8d8r8g8a+4.
+E a2>d2
+E c2^8<a+4.>
+E a+8r8<a+4>c2
+E >c8r8<c4
+E <a16a+16g4.|
+E >g4<g4>a4<a8a8
+E a8>c8>c8r8<c16c+16<
+E ]2
+E a4.a4d8.d8.d8r2
+
+E <a+4.>c2f2f4.e4
+E <a+4.>c2d2d+2^8
+E e4.a2^8
+E d4.g2^8
+E a+4.a+8g4.g8
+E a8.a8.a8
+E r2 
+E [ d4.>d8r8<<a8>d8g2g8r8>g8r8g8< | d4.>d8r8<<a8>d8g2g8g16>g16f+8f8e8< ]2
+E d4c+4c4<b4>g8.g8.g8r8>g8r4
+E ]0 
+
+@e0={0,0,d.b.a.9:2.8:2.7:5.6:4.5:4.4:3.3:5.[4.3:5]}
+@e1={0,0, d.a.7. b.8.6.5.4.3. 0}
+@e3={0,0,f.e.d.c.b:2.a:2.9:2.8}
+@e4={0,0,c.9.6. a.7.5.4.3.3. 0}
+@e6={0,0,c.a.9.8.8.7.7.6. 9.8.7.6:2.5:4.4:4.3}
+@e8={0,0,d.b.8. c.9.7.6.5.4.3}
