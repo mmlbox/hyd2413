@@ -88,15 +88,18 @@ A <a+2..>c1
 A r8
 A ]0
 
+*0={s12vs-4s6vs+4}
+*1={s12vs-4s24vs+4}
+
 F vb13vc10vh8vs10 
 F [ l8
 F [
-F  [h4s12vs-2s6vs+2h4  s12vs-2s6vs+2]3
-F   h4s12vs-2s6vs+2h8s8s12vs-2s24vs+2s8
+F  [h4*0h4  *0]3
+F   h4*0h8s8*1s8
 F ]3
 
-F [h8h8s12vs-2s24vs+2h8h8|h8s12vs-2s24vs+2h8]4 s8s12vs-2s24vs+2h8
-F [h8h8s12vs-2s24vs+2h8|h8h8s12vs-2s24vs+2h8]4 s4s4
+F [h8h8*1h8h8|h8*1h8]4 s8*1h8
+F [h8h8*1h8|h8h8*1h8]4 s4s4
 
 F l8
 F [h8h8s8h8h8h8s8|h8]3 s8
